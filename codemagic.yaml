@@ -8,9 +8,9 @@ workflows:
     environment:
       ios_signing:
         provisioning_profiles:
-         - profile: blosacert
+         - profile: cerpblockprofiks
         certificates:
-         - certificate: cerpblockprofiks
+         - certificate: blosacert
       vars:
         BUNDLE_ID: "blcok.bustarrow.wyzg5zc"
         XCODE_PROJECT: "BlockBoost.xcodeproj"
